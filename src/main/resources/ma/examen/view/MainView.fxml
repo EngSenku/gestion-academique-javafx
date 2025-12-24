@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ma.examen.controller.MainController"
+            fx:id="mainPane"
+            prefWidth="1000" prefHeight="700">
+
+    <left>
+        <VBox spacing="15" style="-fx-background-color: #2c3e50; -fx-padding: 20; -fx-pref-width: 200;">
+            <Label text="ACADÉMIE" style="-fx-text-fill: white; -fx-font-size: 20px; -fx-font-weight: bold; -fx-padding: 0 0 20 0;"/>
+
+            <Button text="Gérer Filières" onAction="#showFiliereView"
+                    maxWidth="Infinity" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-cursor: hand;"/>
+
+            <Button text="Gérer Étudiants" onAction="#showEleveView"
+                    maxWidth="Infinity" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-cursor: hand;"/>
+
+            <Button text="Gérer Cours" onAction="#showCoursView"
+                    maxWidth="Infinity" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-cursor: hand;"/>
+        </VBox>
+    </left>
+
+    <top>
+        <HBox style="-fx-background-color: #ecf0f1; -fx-padding: 10;" alignment="CENTER_LEFT">
+            <Label text="Système de Gestion Académique" style="-fx-font-size: 14px; -fx-text-fill: #7f8c8d;"/>
+        </HBox>
+    </top>
+
+    <center>
+        <StackPane style="-fx-background-color: white;">
+            <Label text="Bienvenue. Sélectionnez un module dans le menu." style="-fx-text-fill: #95a5a6; -fx-font-size: 18px;"/>
+        </StackPane>
+    </center>
+
+</BorderPane>

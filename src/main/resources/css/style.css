@@ -1,0 +1,120 @@
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-base: #f4f4f4;
+}
+
+.main-container {
+    -fx-background-color: #f8f9fa;
+}
+
+/* Sidebar */
+.sidebar {
+    -fx-background-color: #2c3e50;
+    -fx-padding: 20;
+    -fx-pref-width: 200;
+}
+
+.menu-title {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20 0;
+    -fx-border-color: transparent transparent #34495e transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.menu-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bdc3c7;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-cursor: hand;
+    -fx-pref-width: 180;
+}
+
+.menu-btn:hover {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+}
+
+/* Content Area */
+.content-pane {
+    -fx-padding: 30;
+    -fx-background-color: white;
+}
+
+.header-label {
+    -fx-font-size: 28px;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+.sub-header {
+    -fx-font-size: 16px;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+.side-panel {
+    -fx-background-color: #ecf0f1;
+    -fx-padding: 15;
+    -fx-background-radius: 5;
+}
+
+/* Buttons */
+.action-btn {
+    -fx-background-color: #27ae60;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+}
+.action-btn:hover { -fx-background-color: #2ecc71; }
+
+.delete-btn {
+    -fx-background-color: #c0392b;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+}
+.delete-btn:hover { -fx-background-color: #e74c3c; }
+
+.info-btn {
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+}
+.info-btn:hover { -fx-background-color: #3498db; }
+
+/* Table View */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #bdc3c7;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #ecf0f1;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #bdc3c7;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #3498db;
+}
+
+/* Inputs */
+.text-field, .combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 3;
+    -fx-padding: 8;
+}
+
+.text-field:focused {
+    -fx-border-color: #3498db;
+}
