@@ -22,21 +22,23 @@ Le projet respecte scrupuleusement l'architecture en couches imposée (MVC/DAO) 
 
 ### 2. Gestion des Étudiants
 
-*Vue complète permettant l'ajout, la modification et le filtrage des étudiants par filière.*
+*Vue complète permettant l'ajout, la modification et la suppression des étudiants, ainsi que la création et la mise à jour de leur dossier administratif.*
 
 ![gestion_eleve.png](captures/gestion_eleve.png)
 
-### 3. Gestion des Cours
+![gestion_dossier_administratif.png](captures/gestion_dossier_administratif.png)
 
-*Interface de création, modification et affectation des cours aux différentes filières.*
-
-![gestion_cours.png](captures/gestion_cours.png)
-
-### 4. Gestion des Inscriptions (Pop-up)
+### 3. Gestion des Inscriptions (Pop-up)
 
 *Interface dédiée (Double List View) pour gérer les inscriptions aux cours : à gauche les cours disponibles, à droite les cours inscrits.*
 
 ![inscription_cours.png](captures/inscription_cours.png)
+
+### 4. Gestion des Cours
+
+*Interface de création, modification et affectation des cours aux différentes filières.*
+
+![gestion_cours.png](captures/gestion_cours.png)
 
 ## 🛠 Choix Techniques
 
