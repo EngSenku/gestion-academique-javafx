@@ -12,6 +12,32 @@ Le projet respecte scrupuleusement l'architecture en couches imposée (MVC/DAO) 
 * `ma.examen.view` : Fichiers FXML définissant l'interface graphique.
 * `ma.examen.util` : Utilitaires techniques, notamment le gestionnaire de connexion Singleton (`DBConnection`) qui charge la configuration depuis un fichier externe.
 
+## 👁 Aperçu de l'Interface
+
+### 1. Gestion des Filières
+
+*Tableau de bord des filières avec calcul automatique de l'effectif étudiant.*
+
+![vue_principale.png](captures/vue_principale.png)
+
+### 2. Gestion des Étudiants
+
+*Vue complète permettant l'ajout, la modification et le filtrage des étudiants par filière.*
+
+![gestion_eleve.png](captures/gestion_eleve.png)
+
+### 3. Gestion des Cours
+
+*Interface de création, modification et affectation des cours aux différentes filières.*
+
+![gestion_cours.png](captures/gestion_cours.png)
+
+### 4. Gestion des Inscriptions (Pop-up)
+
+*Interface dédiée (Double List View) pour gérer les inscriptions aux cours : à gauche les cours disponibles, à droite les cours inscrits.*
+
+![inscription_cours.png](captures/gestion_cours.png)
+
 ## 🛠 Choix Techniques
 
 ### 1. Interface Utilisateur (JavaFX)
