@@ -36,7 +36,7 @@ Le projet respecte scrupuleusement l'architecture en couches imposée (MVC/DAO) 
 
 *Interface dédiée (Double List View) pour gérer les inscriptions aux cours : à gauche les cours disponibles, à droite les cours inscrits.*
 
-![inscription_cours.png](captures/gestion_cours.png)
+![inscription_cours.png](captures/inscription_cours.png)
 
 ## 🛠 Choix Techniques
 
